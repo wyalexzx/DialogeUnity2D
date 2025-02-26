@@ -7,6 +7,9 @@ using UnityEngine;
 public class Dialoge :{
 
     public string name;
+
+    [TextArea(3, 10)]
     public string[] sentences;
 
 }
+
